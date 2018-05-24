@@ -58,7 +58,7 @@ public class InicioDeSesion extends javax.swing.JFrame {
         jLabel3.setText("CONTRASEÑA");
         jLabel3.setBorder(new javax.swing.border.MatteBorder(null));
         jPanel1.add(jLabel3);
-        jLabel3.setBounds(10, 155, 124, 23);
+        jLabel3.setBounds(10, 155, 124, 19);
 
         txtUsuario.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         txtUsuario.addKeyListener(new java.awt.event.KeyAdapter() {
@@ -92,13 +92,13 @@ public class InicioDeSesion extends javax.swing.JFrame {
 
         jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/proyectof/sesiones.png"))); // NOI18N
         jPanel1.add(jLabel4);
-        jLabel4.setBounds(50, 0, 310, 300);
+        jLabel4.setBounds(0, 0, 360, 310);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, 370, Short.MAX_VALUE)
+            .addComponent(jPanel1, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 370, Short.MAX_VALUE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
